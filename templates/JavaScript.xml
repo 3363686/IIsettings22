@@ -1,0 +1,113 @@
+<templateSet group="JavaScript">
+  <template name="iter" value="for each( var $VAR$ in $ARRAY$ ){&#10;  $END$&#10;}" description="Iterate (for each..in) - JavaScript 1.6+" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="itin" value="for( var $VAR$ in $ARRAY$ ){&#10;  $END$&#10;}" description="Iterate oBject  (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="itar" value="for( var $INDEX$=0; $INDEX$&lt;$ARRAY$.length; $INDEX$++ ){&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+  </template>
+  <template name="ie" value="if( $C$ ){&#10;  $END$&#10;}else{&#10;}&#10;" description="if(  ){ }else{ }" toReformat="true" toShortenFQNames="true">
+    <variable name="C" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="if" value="if( $C$ ){&#10;  $END$&#10;}&#10;" description="if(  ){ }" toReformat="true" toShortenFQNames="true">
+    <variable name="C" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="fa" value="for( var $INDEX$=0; $INDEX$&lt;$ARRAY$.length; $INDEX$++ ){&#10;  var $VAR$ = $ARRAY$[$INDEX$];&#10;  $END$&#10;}" description="Iterate elements of array" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array&quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fe" value="for each( var $VAR$ in $ARRAY$ ){&#10;  $END$&#10;}" description="Iterate (for each..in) - JavaScript 1.6+" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fb" value="for( var $VAR$ in $ARRAY$ ){&#10;  $END$&#10;}" description="Iterate oBject  (for..in)" toReformat="true" toShortenFQNames="true">
+    <variable name="ARRAY" expression="jsArrayVariable()" defaultValue="&quot;array &quot;" alwaysStopAt="true" />
+    <variable name="VAR" expression="jsSuggestVariableName()" defaultValue="&quot;o&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fo" value="for( $INDEX$=0; $INDEX$&lt;$LIM$; $INDEX$++ ){&#10;  $END$&#10;}" description="ame smart for" toReformat="true" toShortenFQNames="true">
+    <variable name="INDEX" expression="jsSuggestIndexName()" defaultValue="&quot;i&quot;" alwaysStopAt="true" />
+    <variable name="LIM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JS_STATEMENT" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="fi" value="for( i=0; i&lt;$LIM$; i++ ){&#10;  $END$&#10;}" description="for i" toReformat="true" toShortenFQNames="true">
+    <variable name="LIM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fj" value="for( j=0; j&lt;$LIM$; j++ ){&#10;  $END$&#10;}" description="for j" toReformat="true" toShortenFQNames="true">
+    <variable name="LIM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="fk" value="for( k=0; k&lt;$LIM$; k++ ){&#10;  $END$&#10;}" description="for k" toReformat="true" toShortenFQNames="true">
+    <variable name="LIM" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="wh" value="while( $C$ ){&#10;  $END$&#10;}&#10;" description="while(  ){ }" toReformat="true" toShortenFQNames="true">
+    <variable name="C" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="do" value="do{&#10;  $END$&#10;}while( $C$ );&#10;" description="do{ }while" toReformat="true" toShortenFQNames="true">
+    <variable name="C" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="sw" value="switch( $V$ ){&#10;  case $END$:&#10;    break;&#10;  case :&#10;    break;&#10;&#9;default:&#10;}&#10;" description="switch" toReformat="true" toShortenFQNames="true">
+    <variable name="V" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="try" value="try{&#10;  $END$&#10;}&#10;catch( e ){&#10;    alert( &quot;Failure: &quot; + e.message );&#10;}&#10;" description="try" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ei" value="else if( $C$ ){&#10;  $END$&#10;}&#10;" description="else if(  ){ }" toReformat="true" toShortenFQNames="true">
+    <variable name="C" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

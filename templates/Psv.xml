@@ -1,0 +1,86 @@
+<templateSet group="Psv">
+  <template name="dl" value="&lt;DL style=&quot;max-width: 25em&quot;&gt;&lt;DT&gt;$END$П:&lt;DD&gt;0&lt;DT&gt;О:&lt;DD&gt;0&lt;/DL&gt;" description="dl" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="ul" value="&lt;/span&gt;&lt;/p&gt;&lt;UL&gt;&lt;LI&gt;$END$.&lt;/UL&gt;&lt;p&gt;&lt;span class=&quot;addt&quot;&gt;" description="ul" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="art" value="&lt;span class=&quot;art&quot;&gt;арт. $END$&lt;/span&gt;" description="art" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="blu" value="&amp;nbsp;/&lt;span class=&quot;blue&quot;&gt;&amp;nbsp;$END$&lt;/span&gt;" description="blu" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="fo" value="&lt;/span&gt;&lt;span class=&quot;for&quot;&gt;" description="fo" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+  <template name="u10" value="&lt;br&gt;&lt;b&gt;Цена за упаковку $END$10 штук.&lt;/b&gt;" description="&lt;br&gt;&lt;b&gt;Цена за упаковку 10 штук.&lt;/b&gt;" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="EDU_TASK_DESCRIPTION_HINT" value="false" />
+      <option name="GROOVY" value="false" />
+      <option name="HTML" value="false" />
+      <option name="JAVA_CODE" value="false" />
+      <option name="JSON" value="false" />
+      <option name="KOTLIN" value="false" />
+      <option name="MAVEN" value="false" />
+      <option name="OTHER" value="true" />
+      <option name="SHELL_SCRIPT" value="false" />
+      <option name="XML" value="false" />
+    </context>
+  </template>
+</templateSet>

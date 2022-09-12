@@ -1,0 +1,21 @@
+<filetype binary="false" description="psv for load" name="psv Newe">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#" />
+      <option name="COMMENT_START" value="&lt;!--" />
+      <option name="COMMENT_END" value="--&gt;" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+      <option name="LINE_COMMENT_AT_START" value="true" />
+    </options>
+    <keywords keywords="blkt;blkt2;blue;dd;dl;dt;li;ltd;ltdi;ltdl;noblue;norm;norow;one;red;sale1;sp1;sp2;two" ignore_case="true" />
+    <keywords2 keywords="/big/;/small/;ul" />
+    <keywords3 keywords="multicopy" />
+  </highlighting>
+  <extensionMap>
+    <mapping ext="psv" />
+  </extensionMap>
+</filetype>

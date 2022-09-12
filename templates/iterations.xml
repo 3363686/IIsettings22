@@ -1,0 +1,29 @@
+<templateSet group="iterations">
+  <template name="if" value="if( $A$ ){&#10;  $END$&#10;}" description="if" toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ie" value="if( $A$ ){&#10;  $END$&#10;}else{&#10;}" description="if else" toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="el" value="else{&#10;  $END$&#10;}" description="else" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="ei" value="else if( $A$ ){&#10;  $END$&#10;}" description="else if" toReformat="true" toShortenFQNames="true">
+    <variable name="A" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="GROOVY_STATEMENT" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>

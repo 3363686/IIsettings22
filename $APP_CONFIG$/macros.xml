@@ -1,0 +1,29 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Wrap-Unwrap">
+      <action id="EditorToggleUseSoftWraps" />
+    </macro>
+    <macro name="Safe Copy line">
+      <action id="EditorDuplicateLines" />
+      <action id="EditorUp" />
+      <action id="CommentByLineComment" />
+    </macro>
+    <macro name="Correct CSV exported file">
+      <action id="Find" />
+      <typing text-keycode="70:1;72:0;78:0;66:0;82:0;69:0;75:0">Артикул</typing>
+      <shortuct text="ESCAPE" />
+      <action id="EditorLineStart" />
+      <action id="EditorDown" />
+      <action id="EditorTextEndWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorUpWithSelection" />
+      <action id="EditorToggleColumnMode" />
+      <typing text-keycode="49:0;92:1">1|</typing>
+      <action id="EditorEscape" />
+    </macro>
+    <macro name="Add to Paint 0">
+      <action id="EditorSelectWord" />
+      <action id="com.mnw.stickyselection.actions.PaintSelectionPopupAction" />
+    </macro>
+  </component>
+</application>

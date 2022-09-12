@@ -1,0 +1,101 @@
+<application>
+  <component name="CodeFoldingSettings">
+    <option name="COLLAPSE_CUSTOM_FOLDING_REGIONS" value="true" />
+  </component>
+  <component name="CodeInsightSettings">
+    <option name="selectAutopopupSuggestionsByChars" value="true" />
+    <option name="PARAMETER_INFO_DELAY" value="100" />
+    <option name="AUTO_POPUP_JAVADOC_INFO" value="true" />
+    <option name="JAVADOC_INFO_DELAY" value="200" />
+    <option name="SELECT_AUTOPOPUP_SUGGESTIONS_BY_CHARS" value="true" />
+    <option name="SHOW_FULL_SIGNATURES_IN_PARAMETER_INFO" value="true" />
+    <option name="HIGHLIGHT_SCOPE" value="true" />
+    <option name="ADD_UNAMBIGIOUS_IMPORTS_ON_THE_FLY" value="true" />
+  </component>
+  <component name="EditorSettings">
+    <option name="languageBreadcrumbsMap">
+      <map>
+        <entry key="CSS" value="true" />
+        <entry key="Groovy" value="true" />
+        <entry key="HTML" value="true" />
+        <entry key="JAVA" value="true" />
+        <entry key="JSON" value="true" />
+        <entry key="JSP" value="true" />
+        <entry key="JSPX" value="true" />
+        <entry key="JavaScript" value="true" />
+        <entry key="PHP" value="true" />
+        <entry key="Python" value="true" />
+        <entry key="Stylus" value="true" />
+        <entry key="TypeScript" value="true" />
+        <entry key="XHTML" value="true" />
+        <entry key="XML" value="true" />
+        <entry key="kotlin" value="true" />
+        <entry key="yaml" value="true" />
+      </map>
+    </option>
+    <option name="USE_SOFT_WRAPS" value="" />
+    <option name="CUSTOM_SOFT_WRAP_INDENT" value="1" />
+    <option name="IS_VIRTUAL_SPACE" value="true" />
+    <option name="IS_ENSURE_NEWLINE_AT_EOF" value="true" />
+    <option name="ARE_LINE_NUMBERS_SHOWN" value="false" />
+    <option name="SHOW_BREADCRUMBS_ABOVE" value="true" />
+    <option name="IS_WHITESPACES_SHOWN" value="true" />
+    <option name="IS_ALL_SOFTWRAPS_SHOWN" value="true" />
+    <option name="IS_CAMEL_WORDS" value="true" />
+    <option name="IS_WHEEL_FONTCHANGE_ENABLED" value="true" />
+    <option name="IS_MOUSE_CLICK_SELECTION_HONORS_CAMEL_WORDS" value="false" />
+    <option name="REFRAIN_FROM_SCROLLING" value="true" />
+  </component>
+  <component name="InlayHintsSettings">
+    <option name="lastViewedProviderKeyId" value="parameter.hints.old" />
+    <settingsMapElement>
+      <JAVA.annotation.hints>
+        <Settings>
+          <option name="showInferred" value="true" />
+        </Settings>
+      </JAVA.annotation.hints>
+      <JAVA.JavaLens>
+        <JavaLensSettings>
+          <option name="showImplementations" value="true" />
+          <option name="showUsages" value="true" />
+        </JavaLensSettings>
+      </JAVA.JavaLens>
+    </settingsMapElement>
+  </component>
+  <component name="TodoConfiguration">
+    <pattern pattern="todo.*" />
+    <pattern pattern="\bfixme\b.*" />
+    <pattern pattern="\bask-deleted-ame\b.*" />
+    <pattern icon="question" pattern="_ame_.*" />
+    <pattern icon="question" useCustomColors="true" pattern="^#+ +\d+.*">
+      <option name="FOREGROUND" value="bb0000" />
+      <option name="ERROR_STRIPE_COLOR" value="ffaaaa" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="hdr.*">
+      <option name="FOREGROUND" value="cd00f3" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="cd00f3" />
+    </pattern>
+    <pattern icon="question" useCustomColors="true" pattern="/+\*-.*">
+      <option name="FOREGROUND" value="bb0000" />
+      <option name="FONT_TYPE" value="3" />
+      <option name="ERROR_STRIPE_COLOR" value="ffaaaa" />
+    </pattern>
+    <pattern useCustomColors="true" case-sensitive="true" pattern="``.*``">
+      <option name="FOREGROUND" value="0" />
+      <option name="FONT_TYPE" value="1" />
+    </pattern>
+    <filter name="PSV cat#">
+      <pattern index="4" />
+    </filter>
+    <filter name="Headers">
+      <pattern index="5" />
+    </filter>
+    <filter name="Structural">
+      <pattern index="6" />
+    </filter>
+  </component>
+  <component name="XmlEditorOptions">
+    <option name="tagTreeHighlightingLevelCount" value="8" />
+  </component>
+</application>

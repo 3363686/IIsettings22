@@ -1,0 +1,4 @@
+<templateSet group="Delta Utils Snippet">
+  <template name="Snippet_1" value="Snippet_1" description="" toReformat="false" toShortenFQNames="true" />
+  <template name="s2" value="Snippet_2" description="" toReformat="false" toShortenFQNames="true" />
+</templateSet>

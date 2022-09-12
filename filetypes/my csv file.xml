@@ -1,0 +1,18 @@
+<filetype binary="false" description="csv file" name="my csv file">
+  <highlighting>
+    <options>
+      <option name="LINE_COMMENT" value="#" />
+      <option name="COMMENT_START" value="&lt;!--&gt;" />
+      <option name="COMMENT_END" value="&lt;--&gt;" />
+      <option name="HEX_PREFIX" value="" />
+      <option name="NUM_POSTFIXES" value="" />
+      <option name="HAS_BRACES" value="true" />
+      <option name="HAS_BRACKETS" value="true" />
+      <option name="HAS_PARENS" value="true" />
+      <option name="HAS_STRING_ESCAPES" value="true" />
+      <option name="LINE_COMMENT_AT_START" value="true" />
+    </options>
+    <keywords keywords="blkt;blkt2;blue;dd;dl;dt;li;ltd;ltdi;ltdl;noblue;norm;norow;one;red;sale1;sp1;sp2;two" ignore_case="false" />
+    <keywords2 keywords="&lt;UL&gt;" />
+  </highlighting>
+</filetype>

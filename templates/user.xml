@@ -1,0 +1,35 @@
+<templateSet group="user">
+  <template name="rdsi" value="int $VAR$ = scanner.nextInt();" description="Read: scanner.nextInt" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rdnS" value="java.util.Scanner scanner = new java.util.Scanner(java.lang.System.in);&#10;" description="Read: new Scanner( System.in )" toReformat="true" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rdnR" value="java.io.BufferedReader reader = new java.io.BufferedReader(new java.io.InputStreamReader(java.lang.System.in));&#10;String[] $VAR$ = reader.readLine().split(&quot;\\s+&quot;);&#10;" description="Read: new BufferedReader(System.in) &amp; readLine &amp; split" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="" defaultValue="linesplit" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="rdpi" value="int a = java.lang.Integer.parseInt($VAR$[0]);" description="Read: parseInt" toReformat="true" toShortenFQNames="true">
+    <variable name="VAR" expression="suggestVariableName()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_EXPRESSION" value="true" />
+      <option name="JAVA_STATEMENT" value="true" />
+    </context>
+  </template>
+  <template name="zzd" value="_ame_ $DATE$" description="_ame_ DATE" toReformat="false" toShortenFQNames="true">
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="false" />
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,13 @@
+<application>
+  <component name="TaskStorage">
+    <tasks>
+      <task priority="Normal" completed="false" estimated="0" created="1512899704386" actual="0" highlighted="false" highlightingtype="Red" title="Oleg Photos" description="From Gushchin">
+        <task priority="Normal" completed="true" estimated="0" created="1512899738799" actual="0" highlighted="false" highlightingtype="Red" title="Naum" description="" />
+        <task priority="Normal" completed="false" estimated="0" created="1512899917350" actual="0" highlighted="false" highlightingtype="Red" title="Kir" description="" />
+        <task priority="Normal" completed="false" estimated="0" created="1512899939342" actual="0" highlighted="false" highlightingtype="Red" title="Marg" description="" />
+        <task priority="Normal" completed="false" estimated="0" created="1512899955771" actual="0" highlighted="false" highlightingtype="Red" title="Andr" description="" />
+        <task priority="Normal" completed="false" estimated="0" created="1512899969520" actual="0" highlighted="false" highlightingtype="Red" title="Joe" description="" />
+      </task>
+    </tasks>
+  </component>
+</application>

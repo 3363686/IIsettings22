@@ -1,0 +1,11 @@
+<list display="Quick List Test 1">
+  <action id="Macro.ame1" />
+  <action id="EditorCutLineBackward" />
+  <action id="EditorCutLineEnd" />
+  <action id="EditorDeleteLine" />
+  <action id="EditorDeleteToLineEnd" />
+  <action id="EditorDeleteToWordEnd" />
+  <action id="EditorDeleteToWordEndInDifferentHumpsMode" />
+  <action id="EditorDeleteToWordStart" />
+  <action id="EditorDeleteToWordStartInDifferentHumpsMode" />
+</list>
