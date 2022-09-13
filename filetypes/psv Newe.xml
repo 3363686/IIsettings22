@@ -15,4 +15,7 @@
     <keywords2 keywords="/big/;/small/;ul" />
     <keywords3 keywords="multicopy" />
   </highlighting>
+  <extensionMap>
+    <mapping ext="psv" />
+  </extensionMap>
 </filetype>
