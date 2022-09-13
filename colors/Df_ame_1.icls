@@ -1,9 +1,11 @@
 <scheme name="Df_ame_1" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <option name="LINE_SPACING" value="0.9" />
-  <option name="EDITOR_FONT_SIZE" value="10" />
+  <option name="EDITOR_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
   <option name="CONSOLE_FONT_NAME" value="Lucida Sans Typewriter" />
+  <option name="CONSOLE_FONT_SIZE" value="10" />
+  <option name="CONSOLE_LINE_SPACING" value="0.9" />
   <colors>
     <option name="CARET_ROW_COLOR" value="ffffa0" />
     <option name="SELECTION_BACKGROUND" value="5577ff" />
@@ -112,14 +114,12 @@
     </option>
     <option name="CUSTOM_KEYWORD2_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="b97c00" />
-        <option name="FONT_TYPE" value="1" />
+        <option name="FOREGROUND" value="e26d00" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD3_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="7860" />
-        <option name="ERROR_STRIPE_COLOR" value="27961" />
+        <option name="FOREGROUND" value="6c74" />
       </value>
     </option>
     <option name="CUSTOM_KEYWORD4_ATTRIBUTES">
@@ -127,8 +127,12 @@
         <option name="FOREGROUND" value="a13900" />
       </value>
     </option>
-    <option name="CUSTOM_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_LINE_COMMENT" />
-    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES" baseAttributes="DEFAULT_BLOCK_COMMENT" />
+    <option name="CUSTOM_MULTI_LINE_COMMENT_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="b0b0b0" />
+        <option name="FONT_TYPE" value="2" />
+      </value>
+    </option>
     <option name="CUSTOM_STRING_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="b000" />
@@ -137,18 +141,6 @@
     <option name="DEFAULT_ATTRIBUTE">
       <value>
         <option name="FOREGROUND" value="ff" />
-      </value>
-    </option>
-    <option name="DEFAULT_BLOCK_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="555555" />
-        <option name="FONT_TYPE" value="2" />
-      </value>
-    </option>
-    <option name="DEFAULT_DOC_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="666666" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_ENTITY">
@@ -177,12 +169,6 @@
         <option name="FOREGROUND" value="ffffff" />
         <option name="BACKGROUND" value="0" />
         <option name="FONT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="DEFAULT_LINE_COMMENT">
-      <value>
-        <option name="FOREGROUND" value="555555" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -303,12 +289,6 @@
       <value>
         <option name="FOREGROUND" value="ad00ff" />
         <option name="FONT_TYPE" value="3" />
-      </value>
-    </option>
-    <option name="TEXT">
-      <value>
-        <option name="FOREGROUND" value="0" />
-        <option name="BACKGROUND" value="ffffff" />
       </value>
     </option>
     <option name="TEXT_SEARCH_RESULT_ATTRIBUTES">

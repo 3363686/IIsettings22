@@ -11,14 +11,9 @@
   <action id="ActivatePluginsToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt 1" />
   </action>
-  <action id="ActivateProblemsViewToolWindow" />
   <action id="ActivateQuickNotesToolWindow">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt q" />
   </action>
-  <action id="ActivateTODOToolWindow">
-    <keyboard-shortcut first-keystroke="alt 6" />
-  </action>
-  <action id="ChangesView.Move" />
   <action id="CommentByLineComment" />
   <action id="Console.History.Next" />
   <action id="Console.History.Previous" />
@@ -31,7 +26,6 @@
   <action id="EditorDeleteToLineEnd">
     <keyboard-shortcut first-keystroke="alt y" />
   </action>
-  <action id="EditorDuplicate" />
   <action id="EditorDuplicateLines">
     <keyboard-shortcut first-keystroke="ctrl m" />
   </action>
@@ -107,15 +101,6 @@
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="clear" second-keystroke="1" />
   </action>
-  <action id="Scratch.NewScratch">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt a" />
-  </action>
-  <action id="Scratch.OpenDefaultScratch">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt c" />
-  </action>
-  <action id="Scratch.OpenScratchList">
-    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt s" />
-  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -134,11 +119,9 @@
   <action id="TabList">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
-  <action id="TabShiftActions.ToggleMaximizeRestore" />
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt back_quote" />
   </action>
-  <action id="Vcs.MoveChangedLinesToChangelist" />
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
   </action>
@@ -180,9 +163,6 @@
   </action>
   <action id="myCommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
-  </action>
-  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
-    <keyboard-shortcut first-keystroke="shift alt m" />
   </action>
   <action id="xxx">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />

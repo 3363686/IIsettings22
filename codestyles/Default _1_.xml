@@ -12,6 +12,11 @@
   <option name="HTML_TEXT_WRAP" value="0" />
   <option name="HTML_KEEP_BLANK_LINES" value="1" />
   <option name="HTML_ALIGN_ATTRIBUTES" value="false" />
+  <CsvCodeStyleSettings>
+    <option name="TABULARIZE" value="false" />
+    <option name="WHITE_SPACES_OUTSIDE_QUOTES" value="false" />
+    <option name="SEPARATOR_INDEX" value="2" />
+  </CsvCodeStyleSettings>
   <GroovyCodeStyleSettings>
     <option name="SPACE_BEFORE_CLOSURE_LBRACE" value="false" />
     <option name="SPACE_WITHIN_GSTRING_INJECTION_BRACES" value="true" />
@@ -29,7 +34,6 @@
     <option name="SPACE_BEFORE_FUNCTION_LEFT_PARENTH" value="false" />
   </JSCodeStyleSettings>
   <JavaCodeStyleSettings>
-    <option name="USE_EXTERNAL_ANNOTATIONS" value="true" />
     <option name="SPACE_BEFORE_OPENING_ANGLE_BRACKET_IN_TYPE_PARAMETER" value="true" />
     <option name="BLANK_LINES_AROUND_INITIALIZER" value="0" />
   </JavaCodeStyleSettings>
@@ -87,6 +91,7 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="1" />
       <option name="TAB_SIZE" value="2" />
+      <option name="LABEL_INDENT_SIZE" value="-1" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="HTML">
@@ -98,8 +103,6 @@
   </codeStyleSettings>
   <codeStyleSettings language="JAVA">
     <option name="LINE_COMMENT_AT_FIRST_COLUMN" value="false" />
-    <option name="LINE_COMMENT_ADD_SPACE" value="true" />
-    <option name="KEEP_FIRST_COLUMN_COMMENT" value="false" />
     <option name="KEEP_BLANK_LINES_IN_DECLARATIONS" value="1" />
     <option name="KEEP_BLANK_LINES_IN_CODE" value="1" />
     <option name="KEEP_BLANK_LINES_BEFORE_RBRACE" value="1" />
@@ -145,6 +148,7 @@
       <option name="INDENT_SIZE" value="2" />
       <option name="CONTINUATION_INDENT_SIZE" value="1" />
       <option name="TAB_SIZE" value="2" />
+      <option name="LABEL_INDENT_SIZE" value="-1" />
     </indentOptions>
   </codeStyleSettings>
   <codeStyleSettings language="JSON">

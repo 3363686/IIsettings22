@@ -1,0 +1,13 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="a404f1e3-4f6b-4dfc-b7de-3fadc721389c" name="methodlab" url="http://newe.metodlab.ru">
+        <fileTransfer host="newe.metodlab.ru" port="21" password="dfe1dfe0dfe4df9edfcddf9edfcedfd2dfcbdfec" username="newe">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" showHiddenFiles="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

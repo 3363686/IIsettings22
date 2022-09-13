@@ -1,4 +1,4 @@
-<filetype binary="false" description="csv file" name="my csv file">
+<filetype binary="false" description="PSV for newe CSV load" name="PSV">
   <highlighting>
     <options>
       <option name="LINE_COMMENT" value="#" />
@@ -9,9 +9,13 @@
       <option name="HAS_BRACES" value="true" />
       <option name="HAS_BRACKETS" value="true" />
       <option name="HAS_PARENS" value="true" />
+      <option name="HAS_STRING_ESCAPES" value="true" />
       <option name="LINE_COMMENT_AT_START" value="true" />
     </options>
-    <keywords keywords="blkt;blkt2;blue;dd;dl;dt;li;ltd;ltdi;ltdl;norm;norow;one;red;sp1;sp2;two;ul" ignore_case="false" />
-    <keywords2 keywords="&lt;UL&gt;" />
+    <keywords keywords="blkt;blkt2;blue;dd;dl;dt;li;ltd;ltdi;ltdl;norm;norow;one;red;sp1;sp2;two;ul" ignore_case="true" />
+    <keywords2 keywords="&lt;ul&gt;" />
   </highlighting>
+  <extensionMap>
+    <mapping ext="psv" />
+  </extensionMap>
 </filetype>

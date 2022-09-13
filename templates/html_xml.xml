@@ -35,12 +35,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="b" value="&lt;b&gt;$SELECTION$&lt;/b&gt;" description="bold" toReformat="false" toShortenFQNames="true">
+  <template name="b" value="&lt;b&gt;$SELECTION$&lt;/b&gt;" description="b" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="i" value="&lt;i&gt;$SELECTION$&lt;/i&gt;" description="italic" toReformat="false" toShortenFQNames="true">
+  <template name="i" value="&lt;i&gt;$SELECTION$&lt;/i&gt;" description="i" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
@@ -71,17 +71,12 @@
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="Q" value="&amp;laquo;$SELECTION$&amp;raquo;" description="laquo; raquo;" toReformat="false" toShortenFQNames="true">
+  <template name="x" value="#region&#10;$SELECTION$#endregion&#10;" description="Surround with #region #endregion" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>
   </template>
-  <template name="v" value="&lt;abbr title=&quot;$END$&quot;&gt;$SELECTION$&lt;/abbr&gt;" description="&lt;abbr&gt;" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="bc" value="``$SELECTION$``" description="bold in comment" toReformat="false" toShortenFQNames="true">
+  <template name="q" value="&amp;laquo;$SELECTION$&amp;raquo;" description="&amp;laquo; &amp;raquo;" toReformat="false" toShortenFQNames="true">
     <context>
       <option name="OTHER" value="true" />
     </context>

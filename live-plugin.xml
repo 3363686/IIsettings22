@@ -1,0 +1,19 @@
+<application>
+  <component name="LivePluginSettings">
+    <option name="justInstalled" value="false" />
+    <option name="runAllPluginsOnIDEStartup" value="true" />
+    <option name="pluginsUsage">
+      <map>
+        <entry key="actionsPopupMenu" value="29" />
+        <entry key="ame_live_01" value="501" />
+        <entry key="helloWorld" value="4" />
+        <entry key="insertNewLineAbove" value="1" />
+        <entry key="modifyTextEditor" value="6" />
+        <entry key="projectFilesStats" value="6" />
+        <entry key="registerAction" value="1" />
+        <entry key="registerToolWindow" value="4" />
+        <entry key="utilExample" value="25" />
+      </map>
+    </option>
+  </component>
+</application>
