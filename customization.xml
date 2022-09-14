@@ -5,37 +5,6 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="ToolbarFindGroup" is_group="true" action_type="-1" position="10">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="$Paste" is_action="true" action_type="-1" position="9">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="$Copy" is_action="true" action_type="-1" position="8">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="$Cut" is_action="true" action_type="-1" position="7">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="CaptureMemorySnapShot" is_action="true" action_type="-1" position="1">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <path value="Profiling Actions" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group seperator="true" action_type="1" position="9">
-      <path value="root" />
-      <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
     <group value="VcsShowNextChangeMarker" is_action="true" action_type="1" position="10">
       <path value="root" />
       <path value="Main Toolbar" />
@@ -44,12 +13,6 @@
     <group value="VcsShowPrevChangeMarker" is_action="true" action_type="1" position="11">
       <path value="root" />
       <path value="Main Toolbar" />
-      <option name="myInitialPosition" value="-1" />
-    </group>
-    <group value="TabsPlacementGroup" is_group="true" action_type="1" position="12">
-      <path value="root" />
-      <path value="Main menu" />
-      <path value="View" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group seperator="true" action_type="1" position="12">
@@ -67,23 +30,28 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="TabShiftActions.MoveFocusLeft" is_action="true" action_type="1" position="24">
+    <group seperator="true" action_type="1" position="15">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="TabShiftActions.MoveFocusRight" is_action="true" action_type="1" position="25">
+    <group value="TabShiftActions.MoveFocusLeft" is_action="true" action_type="1" position="22">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <group value="CopyAction" is_action="true" action_type="1" position="26">
+    <group value="TabShiftActions.MoveFocusRight" is_action="true" action_type="1" position="23">
       <path value="root" />
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
-    <action id="CopyAction" icon="C:/-old/-j/ffoxprof/yasearch-xb/vendor/branding/about/logo-fx-tiny.png" />
+    <group value="CopyAction" is_action="true" action_type="1" position="24">
+      <path value="root" />
+      <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <action id="TabShiftActions.MoveFocusLeft" icon="C:/-w/icons/idea/idea11icons/vcs/arrow_left.png" />
+    <action id="CopyAction" icon="C:/-old/-j/ffoxprof/yasearch-xb/vendor/branding/about/logo-fx-tiny.png" />
     <action id="TabShiftActions.MoveFocusRight" icon="C:/-w/icons/idea/idea11icons/vcs/arrow_right.png" />
   </component>
 </application>

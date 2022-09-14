@@ -6,11 +6,12 @@
     <notification groupId="Debugger messages" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="Git Important Messages" displayType="STICKY_BALLOON" />
     <notification groupId="Git Messages" displayType="TOOL_WINDOW" />
-    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" shouldLog="false" />
+    <notification groupId="IDE Usage Statistics" displayType="STICKY_BALLOON" />
     <notification groupId="JavaScript debugger" displayType="TOOL_WINDOW" shouldLog="false" />
     <notification groupId="JavaScript Library Management" displayType="STICKY_BALLOON" />
     <notification groupId="Maven Import" displayType="STICKY_BALLOON" />
     <notification groupId="nobaloon" displayType="NONE" />
+    <notification groupId="Package requirements" />
     <notification groupId="Update Checker" displayType="STICKY_BALLOON" />
     <notification groupId="update.available.group" displayType="STICKY_BALLOON" />
     <notification groupId="Vcs Important Messages" displayType="STICKY_BALLOON" />

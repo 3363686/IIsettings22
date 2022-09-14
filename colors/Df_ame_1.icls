@@ -3,9 +3,8 @@
   <option name="LINE_SPACING" value="0.9" />
   <option name="EDITOR_FONT_SIZE" value="11" />
   <option name="EDITOR_FONT_NAME" value="Fira Code" />
-  <option name="CONSOLE_FONT_NAME" value="Lucida Sans Typewriter" />
+  <option name="CONSOLE_FONT_NAME" value="Fira Code" />
   <option name="CONSOLE_FONT_SIZE" value="10" />
-  <option name="CONSOLE_LINE_SPACING" value="0.9" />
   <colors>
     <option name="CARET_ROW_COLOR" value="ffffa0" />
     <option name="SELECTION_BACKGROUND" value="5577ff" />
