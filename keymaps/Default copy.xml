@@ -17,6 +17,9 @@
   <action id="CommentByLineComment" />
   <action id="Console.History.Next" />
   <action id="Console.History.Previous" />
+  <action id="CopyAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt c" />
+  </action>
   <action id="EditorCodeBlockEnd">
     <keyboard-shortcut first-keystroke="ctrl close_bracket" />
   </action>
@@ -50,6 +53,9 @@
   <action id="FileChooser.GotoJDK">
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="back_quote" />
   </action>
+  <action id="GoAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt g" />
+  </action>
   <action id="HelloTextEditorAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt e" />
   </action>
@@ -58,6 +64,9 @@
   </action>
   <action id="HelloWorldAction">
     <keyboard-shortcut first-keystroke="shift alt h" />
+  </action>
+  <action id="InsertAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt p" />
   </action>
   <action id="InsertNewLineAbove">
     <keyboard-shortcut first-keystroke="shift alt enter" />
@@ -100,6 +109,9 @@
   </action>
   <action id="ReopenClosedTab">
     <keyboard-shortcut first-keystroke="clear" second-keystroke="1" />
+  </action>
+  <action id="ReplaceAction">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt r" />
   </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
