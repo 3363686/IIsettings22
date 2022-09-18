@@ -1,5 +1,5 @@
 <toolSet name="External Tools">
-  <tool name="max" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
+  <tool name="Overmaximize Idea window" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="false">
     <exec>
       <option name="COMMAND" value="C:\Progs\sys\NirLauncher\NirSoft\nircmd.exe" />
       <option name="PARAMETERS" value="win setsize stitle $ProjectName$ -14, -8, 1944, 1098" />
