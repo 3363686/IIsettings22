@@ -34,6 +34,7 @@
       <mapping ext="00" type="PLAIN_TEXT" />
       <mapping ext="qqq" type="PLAIN_TEXT" />
       <mapping ext="nwe" type="PLAIN_TEXT" />
+      <removed_mapping ext="psv" type="PSV" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
     </extensionMap>
