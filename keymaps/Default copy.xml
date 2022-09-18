@@ -102,7 +102,7 @@
     <keyboard-shortcut first-keystroke="alt l" second-keystroke="p" />
   </action>
   <action id="QuickList.Quick List Test 1">
-    <keyboard-shortcut first-keystroke="alt l" second-keystroke="0" />
+    <keyboard-shortcut first-keystroke="alt l" second-keystroke="1" />
   </action>
   <action id="QuickList.t1">
     <keyboard-shortcut first-keystroke="shift ctrl alt f1" />

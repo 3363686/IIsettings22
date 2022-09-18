@@ -1,4 +1,6 @@
-<list display="Quick List Test 1">
+<list display="Quick List 1">
+  <action id="Tool_External Tools_Overmaximize Idea window" />
+  <action id="QuickList.$Separator$" />
   <action id="Macro.ame1" />
   <action id="EditorCutLineBackward" />
   <action id="EditorCutLineEnd" />
