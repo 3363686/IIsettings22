@@ -1,0 +1,36 @@
+<application>
+  <component name="com.mnw.stickyselection.StickySelectionProperties">
+    <option name="paintGroupProperties">
+      <PaintGroupDataBean>
+        <option name="colorString" value="11,45,82,255" />
+        <option name="highlightLayer" value="1000" />
+        <option name="markerNeeded" value="true" />
+        <option name="shortcut" value="" />
+      </PaintGroupDataBean>
+      <PaintGroupDataBean>
+        <option name="colorString" value="68,73,100,255" />
+        <option name="highlightLayer" value="1000" />
+        <option name="markerNeeded" value="true" />
+        <option name="shortcut" value="" />
+      </PaintGroupDataBean>
+      <PaintGroupDataBean>
+        <option name="colorString" value="16,94,55,255" />
+        <option name="highlightLayer" value="1000" />
+        <option name="markerNeeded" value="true" />
+        <option name="shortcut" value="" />
+      </PaintGroupDataBean>
+      <PaintGroupDataBean>
+        <option name="colorString" value="166,163,230,255" />
+        <option name="highlightLayer" value="1000" />
+        <option name="markerNeeded" value="true" />
+        <option name="shortcut" value="" />
+      </PaintGroupDataBean>
+      <PaintGroupDataBean>
+        <option name="colorString" value="41,15,68,255" />
+        <option name="highlightLayer" value="1000" />
+        <option name="markerNeeded" value="true" />
+        <option name="shortcut" value="" />
+      </PaintGroupDataBean>
+    </option>
+  </component>
+</application>
