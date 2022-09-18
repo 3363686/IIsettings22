@@ -72,7 +72,6 @@
     </filter>
   </component>
   <component name="XmlEditorOptions">
-    <option name="showCssInlineColorPreview" value="true" />
     <option name="tagTreeHighlightingLevelCount" value="8" />
     <option name="tagTreeHighlightingOpacity" value="20" />
   </component>
