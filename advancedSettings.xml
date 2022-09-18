@@ -1,0 +1,10 @@
+<application>
+  <component name="AdvancedSettings">
+    <option name="settings">
+      <map>
+        <entry key="editor.show.special.chars" value="false" />
+        <entry key="localHistory.daysToKeep" value="365" />
+      </map>
+    </option>
+  </component>
+</application>
