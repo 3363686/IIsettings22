@@ -5,6 +5,11 @@
       <path value="Main Toolbar" />
       <option name="myInitialPosition" value="-1" />
     </group>
+    <group value="OtherMenu" is_group="true" action_type="-1" position="12">
+      <path value="root" />
+      <path value="Main Menu" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
     <group value="SearchEverywhere" is_action="true" action_type="-1" position="12">
       <path value="root" />
       <path value="Main Toolbar" />
@@ -33,6 +38,11 @@
     <group value="VcsShowNextChangeMarker" is_action="true" action_type="1" position="11">
       <path value="root" />
       <path value="Main Toolbar" />
+      <option name="myInitialPosition" value="-1" />
+    </group>
+    <group value="Quick Lists" is_group="true" action_type="1" position="12">
+      <path value="root" />
+      <path value="Main Menu" />
       <option name="myInitialPosition" value="-1" />
     </group>
     <group value="VcsShowPrevChangeMarker" is_action="true" action_type="1" position="12">
