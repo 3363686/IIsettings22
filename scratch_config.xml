@@ -1,41 +1,6 @@
 <application>
   <component name="ScratchConfig">
     <option name="defaultScratchMeaning" value="TOPMOST" />
-    <option name="fullScratchNamesOrdered">
-      <list>
-        <option value="scratch.txt" />
-        <option value="scratch2.txt" />
-        <option value="scratch3.xml" />
-        <option value="scratch4.xml" />
-        <option value="Referencer.txt" />
-        <option value="scratch_1.txt" />
-        <option value="scratch_2.txt" />
-        <option value="scratch.html" />
-        <option value="scratch_3.txt" />
-        <option value="scratch1.txt" />
-        <option value="scratch5.txt" />
-        <option value="scratch6.txt" />
-        <option value="scratch_4.txt" />
-        <option value="scratch_5.txt" />
-        <option value="scratch_6.txt" />
-        <option value="buffer1" />
-        <option value="scratch" />
-        <option value="scratch_1" />
-        <option value="scratch_2" />
-        <option value="scratch_3" />
-        <option value="scratch_4" />
-        <option value="scratch_5" />
-        <option value="scratch_6" />
-        <option value="scratch_7" />
-        <option value="scratch_8" />
-        <option value="scratch_9" />
-        <option value="scratch_10" />
-        <option value="scratch_11" />
-        <option value="scratch_12" />
-        <option value="scratch_13" />
-      </list>
-    </option>
-    <option name="lastOpenedScratch" value="Referencer.txt" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
