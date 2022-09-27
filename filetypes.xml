@@ -14,28 +14,27 @@
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="mht" type="HTML" />
       <mapping ext="session" type="JSON" />
-      <mapping ext="000" type="JavaScript" />
       <mapping ext="jsm" type="JavaScript" />
-      <mapping pattern="iblock" type="PLAIN_TEXT" />
-      <mapping pattern="butterfly" type="PLAIN_TEXT" />
-      <mapping pattern="Sticky Selection" type="PLAIN_TEXT" />
-      <mapping pattern="iblock_o" type="PLAIN_TEXT" />
-      <mapping pattern="`" type="PLAIN_TEXT" />
-      <mapping pattern="w19s80" type="PLAIN_TEXT" />
-      <mapping pattern="t" type="PLAIN_TEXT" />
-      <mapping ext="00" type="PLAIN_TEXT" />
+      <mapping ext="000" type="JavaScript" />
       <mapping ext="0" type="PLAIN_TEXT" />
-      <mapping ext="qqq" type="PLAIN_TEXT" />
-      <mapping ext="m3u8" type="PLAIN_TEXT" />
       <mapping ext="acl" type="PLAIN_TEXT" />
-      <mapping ext="psp" type="PLAIN_TEXT" />
-      <mapping ext="csv&quot;" type="PLAIN_TEXT" />
       <mapping ext="ods" type="PLAIN_TEXT" />
       <mapping ext="alm" type="PLAIN_TEXT" />
-      <mapping ext="nwe" type="PLAIN_TEXT" />
+      <mapping ext="00" type="PLAIN_TEXT" />
+      <mapping ext="qqq" type="PLAIN_TEXT" />
+      <mapping ext="m3u8" type="PLAIN_TEXT" />
+      <mapping ext="psp" type="PLAIN_TEXT" />
+      <mapping ext="csv&quot;" type="PLAIN_TEXT" />
       <mapping ext="tbl" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping pattern="Sticky Selection" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="`" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="butterfly" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="iblock" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="iblock_o" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="t" approved="true" type="PLAIN_TEXT" />
+      <removed_mapping pattern="w19s80" approved="true" type="PLAIN_TEXT" />
     </extensionMap>
   </component>
 </application>
