@@ -137,6 +137,15 @@
   <action id="TabList">
     <keyboard-shortcut first-keystroke="ctrl divide" />
   </action>
+  <action id="TabSwitchPlugin.NextVcsChangeAction">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="right" />
+  </action>
+  <action id="TabSwitchPlugin.PrevVcsChangeAction">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="left" />
+  </action>
+  <action id="TabSwitchPlugin.SwitchTab">
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="a" />
+  </action>
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt back_quote" />
   </action>
@@ -181,6 +190,14 @@
   </action>
   <action id="myCommentByLineComment">
     <keyboard-shortcut first-keystroke="ctrl slash" />
+  </action>
+  <action id="org.intellij.ideaplugins.tabswitch.action.NextTabAction">
+    <keyboard-shortcut first-keystroke="alt l" />
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="alt right" />
+  </action>
+  <action id="org.intellij.ideaplugins.tabswitch.action.PrevTabAction">
+    <keyboard-shortcut first-keystroke="alt p" />
+    <keyboard-shortcut first-keystroke="alt a" second-keystroke="alt left" />
   </action>
   <action id="xxx">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
