@@ -192,7 +192,6 @@
     <keyboard-shortcut first-keystroke="ctrl slash" />
   </action>
   <action id="org.intellij.ideaplugins.tabswitch.action.NextTabAction">
-    <keyboard-shortcut first-keystroke="alt l" />
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="alt right" />
   </action>
   <action id="org.intellij.ideaplugins.tabswitch.action.PrevTabAction">
