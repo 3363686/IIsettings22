@@ -7,6 +7,8 @@
     <option name="CARET_ROW_COLOR" value="ffffa0" />
     <option name="SELECTION_BACKGROUND" value="5577ff" />
     <option name="SOFT_WRAP_SIGN_COLOR" value="ff0000" />
+    <option name="TAB_UNDERLINE" value="80" />
+    <option name="TAB_UNDERLINE_INACTIVE" value="c0b0b0" />
   </colors>
   <attributes>
     <option name="ABSTRACT_CLASS_NAME_ATTRIBUTES">

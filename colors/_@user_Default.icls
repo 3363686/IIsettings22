@@ -4,7 +4,7 @@
     <property name="created">2018-03-14T06:17:05</property>
     <property name="ide">idea</property>
     <property name="ideVersion">2017.3.4.0.0</property>
-    <property name="modified">2022-09-24T16:25:26</property>
+    <property name="modified">2022-10-01T17:26:49</property>
     <property name="originalScheme">Default</property>
   </metaInfo>
   <option name="LINE_SPACING" value="0.9" />
@@ -54,6 +54,9 @@
       <value>
         <option name="BACKGROUND" value="d9bcbc" />
       </value>
+    </option>
+    <option name="TEXT">
+      <value />
     </option>
   </attributes>
 </scheme>
