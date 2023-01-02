@@ -16,7 +16,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.increment.IncrementAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.align.AlignCaretsAction" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
