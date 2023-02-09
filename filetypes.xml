@@ -16,11 +16,6 @@
       <mapping ext="session" type="JSON" />
       <mapping ext="jsm" type="JavaScript" />
       <mapping ext="000" type="JavaScript" />
-      <mapping ext="xlsx" type="MyNativeFile" />
-      <mapping ext="xls" type="MyNativeFile" />
-      <removed_mapping ext="csv" type="MyNativeFile" />
-      <removed_mapping ext="xlsx" type="Native" />
-      <removed_mapping ext="xls" type="Native" />
       <mapping ext="psp" type="PLAIN_TEXT" />
       <mapping ext="csv&quot;" type="PLAIN_TEXT" />
       <mapping ext="ods" type="PLAIN_TEXT" />
@@ -34,7 +29,10 @@
       <mapping ext="qqq" type="PLAIN_TEXT" />
       <mapping ext="nwe" type="PLAIN_TEXT" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="csv" approved="true" type="MyNativeFile" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
+      <removed_mapping ext="xls" approved="true" type="Native" />
+      <removed_mapping ext="xlsx" approved="true" type="Native" />
       <removed_mapping pattern="Sticky Selection" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="`" approved="true" type="PLAIN_TEXT" />
       <removed_mapping pattern="butterfly" approved="true" type="PLAIN_TEXT" />
