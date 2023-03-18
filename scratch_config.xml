@@ -6,6 +6,7 @@
         <option value="scratch.xml" />
       </list>
     </option>
+    <option name="lastOpenedScratch" value="scratch.xml" />
     <option name="scratchesFolderPath" value="$APPLICATION_CONFIG_DIR$/scratches" />
   </component>
 </application>
