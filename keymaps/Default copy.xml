@@ -119,6 +119,9 @@
   <action id="ReplaceAction">
     <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt r" />
   </action>
+  <action id="ShowBlankDiffWindow">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt d" />
+  </action>
   <action id="SwitchApply">
     <keyboard-shortcut first-keystroke="shift alt enter" />
   </action>
@@ -148,6 +151,9 @@
   </action>
   <action id="ToolWindowsGroup">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="alt back_quote" />
+  </action>
+  <action id="Vcs.Log.Diff.Preview.Location">
+    <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="d" />
   </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
