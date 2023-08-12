@@ -20,6 +20,9 @@
   <action id="ActivateTODOToolWindow">
     <keyboard-shortcut first-keystroke="alt 6" />
   </action>
+  <action id="ChangesView.Move">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift alt m" />
+  </action>
   <action id="CommentByLineComment" />
   <action id="Console.History.Next" />
   <action id="Console.History.Previous" />
@@ -155,8 +158,14 @@
   <action id="Vcs.Log.Diff.Preview.Location">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="d" />
   </action>
+  <action id="Vcs.MoveChangedLinesToChangelist">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift alt m" />
+  </action>
   <action id="Vcs.QuickListPopupAction">
     <keyboard-shortcut first-keystroke="ctrl alt back_quote" />
+  </action>
+  <action id="Vcs.ToggleAmendCommitMode">
+    <keyboard-shortcut first-keystroke="shift ctrl alt r" second-keystroke="shift ctrl alt m" />
   </action>
   <action id="ame live list">
     <keyboard-shortcut first-keystroke="alt back_quote" second-keystroke="1" />
@@ -203,6 +212,9 @@
   <action id="org.intellij.ideaplugins.tabswitch.action.PrevTabAction">
     <keyboard-shortcut first-keystroke="alt p" />
     <keyboard-shortcut first-keystroke="alt a" second-keystroke="alt left" />
+  </action>
+  <action id="osmedile.intellij.stringmanip.PopupChoiceAction">
+    <keyboard-shortcut first-keystroke="alt m" />
   </action>
   <action id="xxx">
     <keyboard-shortcut first-keystroke="shift ctrl alt z" />
