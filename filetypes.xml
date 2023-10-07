@@ -10,7 +10,7 @@
   <component name="FileTypeManager" version="18">
     <ignoreFiles list="*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
-      <mapping ext="exportedui" type="ActionScript" />
+      <mapping ext="exportedui-set_to_xml" type="ActionScript" />
       <mapping ext="mht" type="HTML" />
       <mapping ext="tmpl" type="HTML" />
       <mapping ext="session" type="JSON" />
@@ -30,8 +30,10 @@
       <mapping ext="csv" type="PLAIN_TEXT" />
       <mapping ext="qqq" type="PLAIN_TEXT" />
       <mapping ext="nwe" type="PLAIN_TEXT" />
+      <mapping ext="exportedui" type="XML" />
       <removed_mapping ext="csv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="csv" approved="true" type="MyNativeFile" />
+      <removed_mapping ext="exportedui" approved="true" type="ActionScript" />
       <removed_mapping ext="tsv" approved="true" type="CSV/TSV" />
       <removed_mapping ext="xls" approved="true" type="Native" />
       <removed_mapping ext="xlsx" approved="true" type="Native" />
