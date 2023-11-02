@@ -11,6 +11,7 @@
     <ignoreFiles list="*.o;*.obj;*.pyc;*.pyo;*.rbc;*~;.DS_Store;.git;.hg;.svn;CVS;RCS;SCCS;__pycache__;_svn;rcs" />
     <extensionMap>
       <mapping pattern="foam" type="AUTO_DETECTED" />
+      <mapping pattern="1pdf" type="AUTO_DETECTED" />
       <mapping ext="exportedui-set_to_xml" type="ActionScript" />
       <mapping ext="mht" type="HTML" />
       <mapping ext="tmpl" type="HTML" />
