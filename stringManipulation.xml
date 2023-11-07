@@ -16,7 +16,7 @@
     </option>
     <option name="lastAction">
       <UniversalActionModel>
-        <option name="actionClassName" value="osmedile.intellij.stringmanip.encoding.EncodeHexAction" />
+        <option name="actionClassName" value="osmedile.intellij.stringmanip.increment.DecrementAction" />
       </UniversalActionModel>
     </option>
     <option name="sortSettingsMap">
